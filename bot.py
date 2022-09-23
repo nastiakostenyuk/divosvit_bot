@@ -1,7 +1,7 @@
 import logging
+
 from config import TOKEN
-from aiogram import Bot, Dispatcher, executor, types
-from aiogram import types
+from aiogram import Bot, Dispatcher, executor
 
 
 bot = Bot(token=TOKEN)
